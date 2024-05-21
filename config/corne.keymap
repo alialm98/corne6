@@ -15,16 +15,19 @@
         bckspc {
             bindings = <&kp BACKSPACE>;
             key-positions = <9 10>;
+            layers = <1>;
         };
 
         del {
             bindings = <&kp DEL>;
             key-positions = <21 22>;
+            layers = <1>;
         };
 
         tags {
             bindings = <&kp TAB>;
             key-positions = <13 14>;
+            layers = <1>;
         };
     };
 
