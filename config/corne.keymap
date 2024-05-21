@@ -33,7 +33,7 @@
     };
 
     macros {
-        forwards: Raise {
+        forwards: Rais {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp RIGHT_SHIFT &kp LEFT_COMMAND &kp RIGHT_BRACKET>;
