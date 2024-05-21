@@ -33,14 +33,14 @@
     };
 
     macros {
-        forwards: new_macro {
+        forwards: Raise {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp RIGHT_SHIFT &kp LEFT_COMMAND &kp RIGHT_BRACKET>;
-            label = "NEW_MACRO";
+            label = "fork";
         };
 
-        backs: new_macro {
+        backs: Raise {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp RIGHT_SHIFT &kp LEFT_COMMAND &kp LEFT_BRACKET>;
